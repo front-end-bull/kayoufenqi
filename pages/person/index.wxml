@@ -1,0 +1,13 @@
+<view class="container">
+  <image src="{{imageUrl}}"></image>
+  <button bindtap="consult">我的账单</button>
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+    <input placeholder="请输入您的手机号码" auto-focus maxlength="11" type="digit" class="phone"/>-->
+</view>

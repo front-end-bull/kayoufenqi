@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/confirm",
+    "pages/index/index",
+    "pages/index/upload",
+    "pages/bill/index",
+    "pages/person/index",
+    "pages/logs/logs",
+    "pages/login/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "卡友保",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#949494",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"imgs/shouye0.png",
+      "selectedIconPath": "imgs/shouye1.png"
+    },{
+      "pagePath":"pages/bill/index",
+      "text":"账单",
+      "iconPath":"imgs/dingdan0.png",
+      "selectedIconPath": "imgs/dingdan1.png"
+    },{
+      "pagePath":"pages/person/index",
+      "text":"个人中心",
+      "iconPath":"imgs/geren0.png",
+      "selectedIconPath": "imgs/geren1.png"
+    }]
+  }
+
+
+}

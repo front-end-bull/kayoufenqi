@@ -1,0 +1,36 @@
+<view class="container">
+<text class="prompt">上传证件照片，请确保平整清晰</text>
+  <image src="../../imgs/zhongyaotishi.png" class="prompt-img"></image>
+  
+  <view class="pictures">
+    <image src="{{pic1_url}}" class="pic1"></image>
+    <image src="{{pic2_url}}" class="pic2"></image>
+    <image src="{{pic3_url}}" class="pic3"></image>
+
+    <image src="../../imgs/upload.png" class="upload1" bindtap="upload1" wx:if="{{isUpload1}}"></image>
+    <image src="../../imgs/upload.png" class="upload2" bindtap="upload2" wx:if="{{isUpload2}}"></image>
+    <image src="../../imgs/upload.png" class="upload3" bindtap="upload3" wx:if="{{isUpload3}}"></image>
+
+    <image src="../../imgs/replace_big.png" class="replace1" wx:if="{{isReplace1}}"></image>
+    <image src="../../imgs/replace_small.png" class="replace2" wx:if="{{isReplace2}}"></image>
+    <image src="../../imgs/replace_small.png" class="replace3" wx:if="{{isReplace3}}"></image>
+  </view>
+
+
+
+
+
+
+  <button bindtap="login" class="login" disabled="{{isRefuse}}">开始识别</button>
+  <!--<button bindtap="login" class="login">绑定并登录</button>-->
+  
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+    <input placeholder="请输入您的手机号码" auto-focus maxlength="11" type="digit" class="phone"/>-->
+</view>

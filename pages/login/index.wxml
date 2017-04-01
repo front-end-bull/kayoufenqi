@@ -1,0 +1,29 @@
+<view class="container">
+<text class="msg" wx:if="{{isError}}">{{msg}}</text>
+  <text class="title">绑定手机</text>
+
+  <view class="phone-view">
+    <text class="phone-label">手机号码</text>
+    <input placeholder="请输入您的手机号码" maxlength="11" type="number" bindblur="checkPhone" class="phone"/>
+  </view>
+
+  <view class="authCode-view">
+    <text class="authCode-label">验证码</text>
+    <input placeholder="请输入您的验证码" maxlength="4" type="number" class="authCode" bindinput="checkAuthCode"/>
+    <button bindtap="getAuthCode" class="getCode" disabled="{{isGet}}">获取验证码</button>
+  </view>
+
+
+  <button bindtap="login" class="login" disabled="{{isRefuse}}">绑定并登录</button>
+  <!--<button bindtap="login" class="login">绑定并登录</button>-->
+  
+  <!--<view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+    <input placeholder="请输入您的手机号码" auto-focus maxlength="11" type="digit" class="phone"/>-->
+</view>

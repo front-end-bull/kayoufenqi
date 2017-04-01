@@ -1,0 +1,45 @@
+image{
+  width:100%;
+  height: 1206rpx;
+  display: block;
+}
+
+button{
+  width:516rpx;
+  height: 88rpx;
+  position: absolute;
+  top:952rpx;
+  margin:auto;
+  left: 0;
+  right:0;
+  background: #FC9153;
+  color: white;
+  font-size: 34rpx;
+}
+
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin: 20rpx;
+}
+
+.phone{
+  width: 200rpx;
+  height: 300rpx;
+  border: 1rpx solid #aaa;
+}*/
