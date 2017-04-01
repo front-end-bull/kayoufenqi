@@ -1,6 +1,56 @@
 <view class="container">
-  <image src="{{imageUrl}}"></image>
-  <button bindtap="consult">开始询价</button>
+<text class="prompt">自动识别结果如下，请认真核对并修改</text>
+  <image src="../../imgs/zhongyaotishi.png" class="prompt-img"></image>
+  
+  <view class="block">
+    <input placeholder="请输入姓名" class="input"/>
+    <text class="label">姓名</text>
+  </view>
+
+  <view class="block">
+    <input placeholder="请输入身份证号" class="input"/>
+    <text class="label">身份证号</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">车牌号</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">车辆类型</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">品牌型号</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">车辆识别号</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">发动机号</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">注册日期</text>
+  </view>
+
+  <view class="block">
+    <text class="input text">京CM3262</text>
+    <text class="label">发证日期</text>
+  </view>
+
+
+  <button bindtap="login" class="login" disabled="{{isRefuse}}">开始识别</button>
+  <!--<button bindtap="login" class="login">绑定并登录</button>-->
+  
   <!--<view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>

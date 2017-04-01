@@ -51,8 +51,14 @@ Page({
               isUpload1:false,
               isReplace1:true
             })
-            util.log('pic1_url',that.data.pic1_url)
-            util.log('isUpload1',that.data.isUpload1)
+
+            
+
+
+
+
+            // util.log('pic1_url',that.data.pic1_url)
+            // util.log('isUpload1',that.data.isUpload1)
           }
         })
       }

@@ -5,9 +5,7 @@ var app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-imageUrl:'../../imgs/shouye.jpg'
+    
   },
   //事件处理函数
   bindViewTap: function() {

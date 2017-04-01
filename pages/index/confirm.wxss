@@ -1,45 +1,67 @@
-image{
-  width:100%;
-  height: 1206rpx;
-  display: block;
+.container{
+    background: #f5f5f7;
+    min-height: 1254rpx;
+    display: block;
 }
 
-button{
+.prompt{
+    font-size: 30rpx;
+    line-height: 78rpx;
+    text-align: left;
+    color: #808080;
+    padding-left:72rpx;
+    width:100%;
+}
+
+.prompt-img{
+    position: absolute;
+    width: 30rpx;
+    height:30rpx;
+    left:32rpx;
+    top:24rpx;
+    display: block;
+}
+
+.block{
+    width:100%;
+    height: 98rpx;
+    background: white;
+}
+
+.login{
   width:516rpx;
-  height: 88rpx;
-  position: absolute;
-  top:952rpx;
-  margin:auto;
-  left: 0;
-  right:0;
-  background: #FC9153;
+  height:88rpx;
+  background: #FF9354;
+  border-radius: 5rpx;
+  line-height: 88rpx;
   color: white;
-  font-size: 34rpx;
+  font-size: 32rpx;
+  text-align:center;
 }
 
-/*.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.input{
+  float: right;
+  width:488rpx;
+  height: 98rpx;
+  color:#999999;
+  font-size:34rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #DBDBDB;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.text{
+  color:#666666;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.label{
+  float: right;
+  width:230rpx;
+  height: 98rpx;
+  color:#666666;
+  font-size:34rpx;
+  line-height: 98rpx;
+  border-bottom: 1rpx solid #DBDBDB;
 }
 
-.usermotto {
-  margin: 20rpx;
-}
 
-.phone{
-  width: 200rpx;
-  height: 300rpx;
-  border: 1rpx solid #aaa;
-}*/
+
